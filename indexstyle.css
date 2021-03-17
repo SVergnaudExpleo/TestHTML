@@ -11,10 +11,18 @@ body
 }
 .menu-principal--lien 
 {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial,'Times New Roman', sans-serif ;
     display: flex;
     flex-flow: column wrap;
     background-color: green;
 }
+.logo-menu
+{
+    float: right;
+}
+
 .liste-menu--principal
 {
     display: flex;
