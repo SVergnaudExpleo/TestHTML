@@ -1,0 +1,43 @@
+body
+{
+    background-color: grey;
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+}
+.titre-menu--nav
+{
+    background-color: yellow;
+}
+.menu-principal--lien 
+{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: green;
+}
+.liste-menu--principal
+{
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: honeydew;*/
+    text-transform: uppercase;
+}
+
+
+.liste-menu--principal p:nth-child(1)
+{
+    background-color: rgb(84, 129, 90);
+    align-self: flex-start;
+    
+}
+.corps-chapitre--global
+{
+    background-color: cornflowerblue;
+}
+.corps-chapitre--global h1
+{
+    color: green;
+}

@@ -1,0 +1,13 @@
+header
+{
+    float: top;
+    width: 150px;
+    border: 1px solid black;
+}
+
+section
+{
+    clear: both;
+    margin-top: 60px;
+    border: 1px solid blue;
+}
